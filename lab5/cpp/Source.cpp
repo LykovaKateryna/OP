@@ -1,6 +1,5 @@
 #include <iostream>
 #include <math.h>
-#include <cstdlib>
 int main()
 {
 	long long n;
