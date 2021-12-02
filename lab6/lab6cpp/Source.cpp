@@ -6,8 +6,8 @@ long double g(long double x)
 
 	long double l = 1; //(2k+1)!
 	long double t = 1; // (3k)!	 
-	long double n = 0;//чисельник
-	long double m = 0;//знаменник
+	long double n = 0;//numerator
+	long double m = 0;//denominator 
 	for (long double k = 0; k < 11; k++)
 	{
 		if (k == 0)
