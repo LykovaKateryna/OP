@@ -40,7 +40,7 @@ int main()
 	long double y;
 	cout << "input y: ";
 	cin >> y;
-	long double s = (1.7 * g(0.25) + 2 * g(1 + y)) / (6 - g(pow(y, 2) - 1)); //відповідь
+	long double s = (1.7 * g(0.25) + 2 * g(1 + y)) / (6 - g(pow(y, 2) - 1)); 
 	cout << "s = " << s << endl;
 	system("pause");
 }
