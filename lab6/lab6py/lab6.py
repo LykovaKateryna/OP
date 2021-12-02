@@ -2,8 +2,8 @@ import math
 def g(x):
 	l = float(1) #(2k+1)!
 	t = float(1) #(3k)!
-	n = float(0) #чисельник
-	m = float(0) #знаменник
+	n = float(0) #numerator
+	m = float(0) #denominator 
 	for k in range (0,10):
 		if (k==0):
 			l=1
